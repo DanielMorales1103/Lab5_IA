@@ -41,8 +41,12 @@
 # output_image_path = 'sol_img1.png'
 # output_image.save(output_image_path)
 
+# library https://docs.python.org/3/library/abc.html
+
 from PIL import Image, ImageDraw
 import numpy as np
+from abc import ABC, abstractmethod
+
 
 # Function to convert the image into a grid-like pattern with visible grid lines
 def convert_to_grid(image):
@@ -73,8 +77,64 @@ output_matrix, output_image_with_visible_lines = convert_to_grid(input_image)
 print("Output Matrix:")
 print(output_matrix)
 
+
 # Save the output image with visible grid lines to a file
 output_image_with_visible_lines_path = 'sol_img4.png'
 output_image_with_visible_lines.save(output_image_with_visible_lines_path)
 
 print(f"Output image saved to {output_image_with_visible_lines_path}")
+
+
+#structure
+
+class ProblemFramework(ABC):
+    def __init__(self, initial_state, goal_state):
+        self.initial_state = initial_state
+        self.goal_state = goal_state
+
+    @abstractmethod
+    def actions(self, state):
+        """
+        Returns a list of possible actions from the current state.        
+        """
+        pass
+
+    @abstractmethod
+    def step_cost(self, state, action, next_state):
+        """
+        Calculates the cost of performing an action from the current state to the next state
+        """
+        pass
+
+    @abstractmethod
+    def is_goal(self, state):
+        """
+        Verify whether the current state is a target state
+        """
+        pass
+
+
+class MazeProblem(ProblemFramework):
+    def __init__(self, initial_state, goal_state, maze_matrix):
+        super().__init__(initial_state, goal_state)
+        self.maze_matrix = maze_matrix
+
+    def actions(self, state):
+        row, col = state
+        possible_actions = []
+        for dr, dc in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+            new_row, new_col = row + dr, col + dc
+            if 0 <= new_row < len(self.maze_matrix) and 0 <= new_col < len(self.maze_matrix[0]) and self.maze_matrix[new_row][new_col] != '#':
+                possible_actions.append((new_row, new_col))
+        return possible_actions
+
+    def step_cost(self, state, action, next_state):
+        return 1
+
+    def is_goal(self, state):
+        return state == self.goal_state
+
+
+initial_state = (0, 0)  # Define initial state
+goal_state = (len(output_matrix) - 1, len(output_matrix[0]) - 1)  # Define goal state
+maze_problem_instance = MazeProblem(initial_state, goal_state, output_matrix)
