@@ -10,31 +10,28 @@ Ejecución del programa
 
 | Estado    | Imagen |
 |-----------|--------|
-| Original  | ![Original](https://raw.githubusercontent.com/DanielMorales1103/Lab5_IA/main/img/Prueba.bmp) |
-| BFS       | ![BFS](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_bfs.png?raw=true) |
-| DFS       | ![DFS](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_dfs.png?raw=true) |
-| A*        | ![A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_a-star.png?raw=true) |
-| Second A* | ![Second A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_a-star2.png?raw=true) |
+| Original  | <img src="https://raw.githubusercontent.com/DanielMorales1103/Lab5_IA/main/img/Prueba.bmp" width="200" height="200"> |
+| BFS       | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_bfs.png?raw=true" width="200" height="200"> |
+| DFS       | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_dfs.png?raw=true" width="200" height="200"> |
+| A*        | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_a-star.png?raw=true" width="200" height="200"> |
+| Second A* | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Prueba/solution_a-star2.png?raw=true" width="200" height="200"> |
 
 **2. Test 2:**
 
 | Estado    | Imagen |
 |-----------|--------|
-| Original  | ![Original](https://raw.githubusercontent.com/DanielMorales1103/Lab5_IA/main/img/Test.bmp) |
-| BFS       | ![BFS](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_bfs.png?raw=true) |
-| DFS       | ![DFS](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_dfs.png?raw=true) |
-| A*        | ![A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_a-star.png?raw=true) |
-| Second A* | ![Second A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_a-star2.png?raw=true) |
+| Original  | <img src="https://raw.githubusercontent.com/DanielMorales1103/Lab5_IA/main/img/Test.bmp" width="200" height="200"> |
+| BFS       | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_bfs.png?raw=true" width="200" height="200"> |
+| DFS       | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_dfs.png?raw=true" width="200" height="200"> |
+| A*        | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_a-star.png?raw=true" width="200" height="200"> |
+| Second A* | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/test/solution_a-star2.png?raw=true" width="200" height="200"> |
 
 **3. Test 3:**
 
 | Estado    | Imagen |
 |-----------|--------|
-| Original  | ![Original](https://raw.githubusercontent.com/DanielMorales1103/Lab5_IA/main/img/Test2.bmp) |
-| BFS       | ![BFS](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_bfs.png?raw=true) |
-| DFS       | ![DFS](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_dfs.png?raw=true) |
-| A*        | ![A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_a-star.png?raw=true) |
-| Second A* | ![Second A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_a-star2.png?raw=true) |
-
-## Video 
-Para ver el video de como funciona has click [aquí](https://youtu.be/3AmYDxJlgnc)
+| Original  | <img src="https://raw.githubusercontent.com/DanielMorales1103/Lab5_IA/main/img/Test2.bmp" width="200" height="200"> |
+| BFS       | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_bfs.png?raw=true" width="200" height="200"> |
+| DFS       | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_dfs.png?raw=true" width="200" height="200"> |
+| A*        | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_a-star.png?raw=true" width="200" height="200"> |
+| Second A* | <img src="https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_a-star2.png?raw=true" width="200" height="200"> |
