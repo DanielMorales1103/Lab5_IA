@@ -35,3 +35,6 @@ Ejecución del programa
 | DFS       | ![DFS](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_dfs.png?raw=true) |
 | A*        | ![A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_a-star.png?raw=true) |
 | Second A* | ![Second A*](https://github.com/DanielMorales1103/Lab5_IA/blob/main/img/solutions/Test2/solution_a-star2.png?raw=true) |
+
+## Video 
+Para ver el video de como funciona has click [aquí](https://youtu.be/3AmYDxJlgnc)
